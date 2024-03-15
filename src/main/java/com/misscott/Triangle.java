@@ -1,4 +1,4 @@
-package com.misscott.src;
+package com.misscott;
 
 
 /**
@@ -6,16 +6,16 @@ package com.misscott.src;
  * @version 1.0
  * @created 15-mar.-2024 13:28:42
  */
-public class Pentagon extends Figura {
+public class Triangle extends Figura {
 
-	private int apotema;
-	private int lado;
+	private int altura;
+	private int base;
 
-	public Pentagon(){
+	public Triangle(){
 
 	}
 
 	public void finalize() throws Throwable {
 		super.finalize();
 	}
-}//end Pentagon
+}//end Triangle

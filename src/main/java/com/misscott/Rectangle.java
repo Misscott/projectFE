@@ -1,4 +1,4 @@
-package com.misscott.src;
+package com.misscott;
 
 
 /**
@@ -6,16 +6,16 @@ package com.misscott.src;
  * @version 1.0
  * @created 15-mar.-2024 13:28:42
  */
-public class Triangle extends Figura {
+public class Rectangle extends Figura {
 
-	private int altura;
-	private int base;
+	private int ladoA;
+	private int ladoB;
 
-	public Triangle(){
+	public Rectangle(){
 
 	}
 
 	public void finalize() throws Throwable {
 		super.finalize();
 	}
-}//end Triangle
+}//end Rectangle

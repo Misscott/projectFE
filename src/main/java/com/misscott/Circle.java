@@ -1,4 +1,4 @@
-package com.misscott.src;
+package com.misscott;
 
 
 /**

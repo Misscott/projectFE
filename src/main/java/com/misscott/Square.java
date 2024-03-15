@@ -12,7 +12,16 @@ public class Square extends Figura {
 
 	}
 
+	public Square(double x, double y) {
+		super(x, y);
+	}
+
 	public void finalize() throws Throwable {
 		super.finalize();
+	}
+
+	@Override
+	public double calcularArea() {
+		return x * x;
 	}
 }//end Square

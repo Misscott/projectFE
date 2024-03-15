@@ -12,7 +12,16 @@ public class Pentagon extends Figura {
 
 	}
 
-	public void finalize() throws Throwable {
+	public Pentagon(double x, double y) {
+		super(x, y);
+	}
+
+	protected void finalize() throws Throwable {
 		super.finalize();
+	}
+
+	@Override
+	public double calcularArea() {
+		return ((x * 5) * y)/ 2;
 	}
 }//end Pentagon

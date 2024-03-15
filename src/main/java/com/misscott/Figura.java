@@ -8,7 +8,7 @@ package com.misscott;
  */
 public abstract class Figura implements Area {
 
-	protected int area;
+	protected double area;
 	public double x;
 	public double y;
 
@@ -21,7 +21,7 @@ public abstract class Figura implements Area {
 		this.y = y;
 	}
 
-	public void finalize() throws Throwable {
+	protected void finalize() throws Throwable {
 
 	}
 	public abstract double calcularArea();

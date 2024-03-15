@@ -12,7 +12,16 @@ public class Rectangle extends Figura {
 
 	}
 
+	public Rectangle(double x, double y) {
+		super(x, y);
+	}
+
 	public void finalize() throws Throwable {
 		super.finalize();
+	}
+
+	@Override
+	public double calcularArea() {
+		return x * y;
 	}
 }//end Rectangle

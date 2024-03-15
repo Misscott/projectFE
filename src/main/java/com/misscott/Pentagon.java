@@ -8,9 +8,6 @@ package com.misscott;
  */
 public class Pentagon extends Figura {
 
-	private int apotema;
-	private int lado;
-
 	public Pentagon(){
 
 	}

@@ -8,13 +8,20 @@ package com.misscott;
  */
 public class Circle extends Figura {
 
-	private int radio;
-
 	public Circle(){
+		super();
+	}
 
+	public Circle(double x, double y) {
+		super(x, y);
 	}
 
 	public void finalize() throws Throwable {
 		super.finalize();
+	}
+
+	@Override
+	public double calcularArea() {
+		return Math.PI * x * x;
 	}
 }//end Circle

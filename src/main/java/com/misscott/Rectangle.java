@@ -8,9 +8,6 @@ package com.misscott;
  */
 public class Rectangle extends Figura {
 
-	private int ladoA;
-	private int ladoB;
-
 	public Rectangle(){
 
 	}

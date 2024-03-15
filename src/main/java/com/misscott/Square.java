@@ -8,8 +8,6 @@ package com.misscott;
  */
 public class Square extends Figura {
 
-	private int lado;
-
 	public Square(){
 
 	}

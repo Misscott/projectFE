@@ -8,14 +8,20 @@ package com.misscott;
  */
 public class Triangle extends Figura {
 
-	private int altura;
-	private int base;
-
 	public Triangle(){
 
 	}
 
+	public Triangle(double x, double y) {
+		super(x, y);
+	}
+
 	public void finalize() throws Throwable {
 		super.finalize();
+	}
+
+	@Override
+	public double calcularArea() {
+		return (x * y) / 2;
 	}
 }//end Triangle

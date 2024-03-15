@@ -8,6 +8,6 @@ package com.misscott;
  */
 public interface Area {
 
-	public calcularArea();
+	double calcularArea();
 
 }

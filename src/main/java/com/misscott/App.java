@@ -14,7 +14,7 @@ public class App {
 		int option;
 		double area;
 		do {
-			System.out.println("Calculadora de Área de Pau");
+			System.out.println("Calculadora de Area de Pau");
 			System.out.println("Selecciona una opción:");
 			System.out.println("1. Círculo");
 			System.out.println("2. Cuadrado");

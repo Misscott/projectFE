@@ -9,7 +9,7 @@ package com.misscott;
 public class Circle extends Figura {
 
 	public Circle(){
-		super();
+
 	}
 
 	public Circle(double x, double y) {

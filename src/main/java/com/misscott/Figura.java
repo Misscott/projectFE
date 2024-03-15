@@ -21,8 +21,7 @@ public abstract class Figura implements Area {
 		this.y = y;
 	}
 
-	protected void finalize() throws Throwable {
-
+	protected void finalize() throws Throwable {//Cleanup code to be written
 	}
 	public abstract double calcularArea();
 }//end Figura
